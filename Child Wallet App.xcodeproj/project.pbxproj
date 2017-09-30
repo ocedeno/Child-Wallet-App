@@ -55,13 +55,37 @@
 			isa = PBXGroup;
 			children = (
 				06DFAF0F1F7FEB060065F648 /* AppDelegate.swift */,
-				06DFAF111F7FEB060065F648 /* ViewController.swift */,
-				06DFAF131F7FEB060065F648 /* Main.storyboard */,
-				06DFAF161F7FEB060065F648 /* Assets.xcassets */,
-				06DFAF181F7FEB060065F648 /* LaunchScreen.storyboard */,
-				06DFAF1B1F7FEB060065F648 /* Info.plist */,
+				06DFAF221F7FEB560065F648 /* Controller */,
+				06DFAF211F7FEB470065F648 /* View */,
+				06DFAF231F7FEB600065F648 /* Supporting Files */,
 			);
 			path = "Child Wallet App";
+			sourceTree = "<group>";
+		};
+		06DFAF211F7FEB470065F648 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				06DFAF131F7FEB060065F648 /* Main.storyboard */,
+				06DFAF181F7FEB060065F648 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		06DFAF221F7FEB560065F648 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				06DFAF111F7FEB060065F648 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		06DFAF231F7FEB600065F648 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06DFAF161F7FEB060065F648 /* Assets.xcassets */,
+				06DFAF1B1F7FEB060065F648 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
